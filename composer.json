@@ -1,0 +1,26 @@
+{
+    "name": "sagleft/greedisgood-bot",
+    "description": "a bot with an API that sends notifications to Telegram about cashflow",
+    "keywords": ["telegram", "bot", "php"],
+    "version": "1.0.21",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Sagleft",
+            "email": "sagleft@mfc.click",
+            "homepage": "https://sagleft.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
